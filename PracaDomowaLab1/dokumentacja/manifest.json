@@ -1,0 +1,270 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Admin/source/repos/projekt/PracaDomowaLab1",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ow/AhOLrTeKKCgENpf/Z2w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "h1j4onA81y/W0FkJfki+1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "y5O73t9xbHgRrPqyAI711A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.FormGra.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.FormGra.html",
+          "hash": "mcCPORxJ7GaDBT8z/ctRaA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.FormRecepta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.FormRecepta.html",
+          "hash": "wkhGc2IIvm1B4AmqcQQn0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.FormStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.FormStart.html",
+          "hash": "B0OutG6rPaf/CgQlBYp5jA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.StraznikCzasu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.StraznikCzasu.html",
+          "hash": "+ZVlKQexGHJHHOu7ZoI8Cw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.Strażnik.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.Strażnik.html",
+          "hash": "w+un8OGJVHcbRf1iv8zX5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.StrażnikRecept.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.StrażnikRecept.html",
+          "hash": "RngEXpadgUDAn7BVi7htKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.StrażnikZasobów.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.StrażnikZasobów.html",
+          "hash": "6yvZNzki0Ztx5mPjY21i3A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.ZlodziejZasobow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.ZlodziejZasobow.html",
+          "hash": "x3Hl44DyBy2awYjobPmGsQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.Złodziej.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.Złodziej.html",
+          "hash": "1siaHv8s/cWnxxbGN8cmjA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.ZłodziejCzasu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.ZłodziejCzasu.html",
+          "hash": "irsxvCpousLALoJLZOntPw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.ZłodziejRecept.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.ZłodziejRecept.html",
+          "hash": "Ih2VxbzuCcF6SApDYO7lqA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/PracaDomowaLab1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PracaDomowaLab1.html",
+          "hash": "l+o2ZwH4d+xrwyUYOZTeVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "dD/7jB+3lMSe/a+21SlLyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 12,
+          "skipped_file_count": 12
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

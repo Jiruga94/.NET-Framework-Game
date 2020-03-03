@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E5BD843-B7E8-4385-B455-01A4E20F4980}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PracaDomowaLab1</RootNamespace>
+    <AssemblyName>PracaDomowaLab1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStart.Designer.cs">
+      <DependentUpon>FormStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGra.Designer.cs">
+      <DependentUpon>FormGra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRecepta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRecepta.Designer.cs">
+      <DependentUpon>FormRecepta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IBlokuj.cs" />
+    <Compile Include="IStrzeż.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StraznikCzasu.cs" />
+    <Compile Include="Strażnik.cs" />
+    <Compile Include="StrażnikRecept.cs" />
+    <Compile Include="StrażnikZasobów.cs" />
+    <Compile Include="ZlodziejZasobow.cs" />
+    <Compile Include="Złodziej.cs" />
+    <Compile Include="ZłodziejCzasu.cs" />
+    <Compile Include="ZłodziejRecept.cs" />
+    <EmbeddedResource Include="FormStart.resx">
+      <DependentUpon>FormStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGra.resx">
+      <DependentUpon>FormGra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRecepta.resx">
+      <DependentUpon>FormRecepta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include=".gitignore" />
+    <None Include="api\.gitignore" />
+    <None Include="api\index.md" />
+    <None Include="articles\intro.md" />
+    <None Include="articles\toc.md" />
+    <None Include="docfx.json" />
+    <None Include="index.md" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="toc.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attack_speed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\critical_talent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miecz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkorzanaZbroja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tarcza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zbroja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kuszapng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wlocznia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Woda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZahartowaneZelazo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zelazo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drewno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ogien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Olej.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bcDSFDSFg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zlodziej.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Straznik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\docfx.console.2.49.0\build\docfx.console.targets" Condition="Exists('..\packages\docfx.console.2.49.0\build\docfx.console.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ten projekt zawiera odwołania do pakietów NuGet, których nie ma na tym komputerze. Użyj przywracania pakietów NuGet, aby je pobrać. Aby uzyskać więcej informacji, zobacz http://go.microsoft.com/fwlink/?LinkID=322105. Brakujący plik: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\docfx.console.2.49.0\build\docfx.console.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\docfx.console.2.49.0\build\docfx.console.targets'))" />
+  </Target>
+</Project>
